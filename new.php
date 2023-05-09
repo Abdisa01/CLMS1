@@ -1,0 +1,1 @@
+<html> <body> <?php $txt1="Hello World"; $txt2="1234"; echo $txt1 . " " . $txt2 ; ?> </body> </html>

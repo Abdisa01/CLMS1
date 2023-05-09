@@ -1,0 +1,9 @@
+<?php
+include 'dbcon.php';
+	$id=$_GET['noe'];
+	
+	$result1 = mysql_query("delete FROM branch where noe='$id'") or die(mysql_error());
+	echo"<script>alert('Branch is deleted succssfully')</script>";
+	echo "<script>window.location='deletebranch.php';</script>";	
+		
+?>

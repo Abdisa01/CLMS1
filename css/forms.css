@@ -1,0 +1,55 @@
+.modal-content{-webkit-box-shadow:0 5px 15px rgba(0,0,0,.5);box-shadow:0 5px 15px rgba(0,0,0,.5);
+ border-top-left-radius:7px;
+  border-top-right-radius:7px;
+  border-bottom-right-radius:7px;
+  border-bottom-left-radius:7px;
+}
+.modal-header{min-height:16.43px;padding:15px;border-bottom:1px solid #e5e5e5}
+.modal-header .close{margin-top:-2px}
+.modal-title{margin:0;line-height:1.42857143; font-size:30px; text-align:center}
+.modal-body{position:relative;padding:40px}
+.modal-footer{padding:15px;text-align:right;border-top:1px solid #e5e5e5}
+
+input[type="email"],input[type="number"],input[type="password"],input[type="date"],input[type="text"],input[type="file"],select,textarea{
+ 
+  background:#fff;
+  border:1px solid #ccc;
+  border-top-left-radius:7px;
+  border-top-right-radius:7px;
+  border-bottom-right-radius:7px;
+  border-bottom-left-radius:7px;
+  padding:10px;
+  font-family:'Open Sans',sans-serif;
+  font-size:100%;
+  color:#555;
+  height:20px;
+  width:380px;
+  margin-top:10px;
+}
+textarea{
+  height:100px;	
+  width:380px;
+}
+.form-control{
+ height:40px;
+  width:400px;
+    margin-bottom:10px;
+}
+input[type="submit"]{
+	font-size:100%;
+	padding:10px;
+	font-family:'Open Sans',sans-serif;
+	margin-top:10px;
+}
+.error{
+border:none; 
+background-color:#FFFFFF; 
+color:#FF0000; 
+font-size:16px;
+}
+.form-signin{
+width:400px;
+}
+#loginn{
+width:400px;
+}
